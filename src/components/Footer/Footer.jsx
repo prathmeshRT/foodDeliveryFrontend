@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer" id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
+                <img className='footer-logo' src='/quickbiteLogo.png' alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta eum numquam? Maxime beatae numquam ab ipsam, cumque natus nulla corporis fugiat, animi, aut cum! Dolores libero odit culpa eligendi!</p>
                 <div className="footer-social-icon">
                     <img src={assets.facebook_icon} alt="" />
@@ -28,13 +28,13 @@ const Footer = () => {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>+-212-551-544</li>
-                    <li>contact@tomato.com</li>
+                    <li>contact@quickbite.com</li>
                 </ul>
             </div>
         </div>
         <hr />
         <p className="footer-copyright">
-            Copyright 2024 © Tomato.com-All Right Reserved
+            Copyright 2024 © quickbite.com-All Right Reserved
         </p>
     </div>
   )
